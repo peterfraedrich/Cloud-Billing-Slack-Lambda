@@ -19,3 +19,8 @@ Heroku          USE_HEROKU
 ```
 
 Additionally, if you want to enable Slack reporting, you need to supply the `SLACK_REPORT=<not null>` variable.
+
+
+## TODO
+- Make it cloud agnostic. There are a few things here and there that have cloud providers hard-coded (slack message, for example)
+- Support local secrets (maybe)
